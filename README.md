@@ -3,8 +3,11 @@
 ## Tools
 
 - [pkg.go.dev](https://pkg.go.dev/): Go package registry
+- [Tutorials](https://go.dev/doc/tutorial/)
 
-## Current State
+## Learning Progress
 
 - [x] Hello World: https://go.dev/doc/tutorial/getting-started
-- [ ] Create Go Module: https://go.dev/doc/tutorial/create-module
+- [ ] Create a Go Module: https://go.dev/doc/tutorial/create-module
+  - Create a module
+  - Call your code from another module
