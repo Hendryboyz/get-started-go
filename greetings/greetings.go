@@ -1,14 +1,34 @@
 package greetings
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
-func Hello(name string) string {
+func Hello(name string) (string, error) {
+	nameError := validaName(name)
+	if nameError != nil {
+		return "", nameError
+	}
 	message := fmt.Sprintf("Hi, %v. Welcome.", name)
-	return message
+	return message, nameError
 }
 
-func AnotherHello(name string) string {
+func validaName(name string) error {
+	// If no name was given, return an error with a message
+	if name == "" {
+		return errors.New("empty, name")
+	} else {
+		return nil
+	}
+}
+
+func AnotherHello(name string) (string, error) {
+	nameError := validaName(name)
+	if nameError != nil {
+		return "", nameError
+	}
 	var message string
 	message = fmt.Sprintf("Hello, %v. Nice to meet you.", name)
-	return message
+	return message, nameError
 }

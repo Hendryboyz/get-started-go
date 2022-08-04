@@ -11,3 +11,8 @@
 - [ ] Create a Go Module: https://go.dev/doc/tutorial/create-module
   - Create a module
   - Call your code from another module
+  - Return and handle an error
+
+## Best Practices
+
+- [Effective Go](https://go.dev/doc/effective_go)
