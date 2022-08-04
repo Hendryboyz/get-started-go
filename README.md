@@ -5,6 +5,12 @@
 - [pkg.go.dev](https://pkg.go.dev/): Go package registry
 - [Tutorials](https://go.dev/doc/tutorial/)
 
+## Command
+
+- `go mod init`: initializes and writes a new `go.mod` file in the current directory
+- `go mod edit`: edits and formats `go.mod` files, for use primarily by tools and scripts
+- `go mod tidy`: ensures that the `go.mod` file matches the source code in the module
+
 ## Learning Progress
 
 - [x] Hello World: https://go.dev/doc/tutorial/getting-started
