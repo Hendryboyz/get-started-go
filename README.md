@@ -21,6 +21,7 @@
   - Call your code from another module
   - Return and handle an error
   - Return a random greeting
+- [ ] Go predefined data structure
 
 ### Object-Oriented Programming
 
