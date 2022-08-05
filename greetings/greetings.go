@@ -53,3 +53,16 @@ func AnotherHello(name string) (string, error) {
 	message = fmt.Sprintf("Hello, %v. Nice to meet you.", name)
 	return message, nameError
 }
+
+func Hellos(names []string) (map[string]string, error) {
+	// make(map[key-type]value-type)
+	messages := make(map[string]string)
+	for _, name := range names {
+		message, err := Hello(name)
+		if err != nil {
+			return nil, err
+		}
+		messages[name] = message
+	}
+	return messages, nil
+}

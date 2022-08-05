@@ -11,12 +11,20 @@ func main() {
 	log.SetPrefix("greetings: ")
 	log.SetFlags(0) // disable printing the time
 
-	// Get a greeting message and error
+	// Get a greeting messages and error
 	message, err := greetings.Hello("Henry")
 	tryPrint(message, err)
 
-	message2, err2 := greetings.AnotherHello("")
-	tryPrint(message2, err2)
+	names := []string{"Mary", "George", "Henry"}
+	messages, err2 := greetings.Hellos(names)
+	if err2 != nil {
+		log.Fatal(err2)
+	} else {
+		fmt.Println(messages)
+	}
+
+	message2, err3 := greetings.AnotherHello("")
+	tryPrint(message2, err3)
 }
 
 func tryPrint(message string, err error) {

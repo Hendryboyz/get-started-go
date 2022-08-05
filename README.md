@@ -18,9 +18,11 @@
 - [x] Hello World: https://go.dev/doc/tutorial/getting-started
 - [ ] Create a Go Module: https://go.dev/doc/tutorial/create-module
   - Create a module
-  - Call your code from another module
-  - Return and handle an error
-  - Return a random greeting
+  - Call your code from another module(`import`)
+  - Return and handle an error(`errors` module)
+  - Return a random greeting(slice: `[]string`, array: `[3]string`)
+  - Return greetings for multiple people(`map[<key-type>]<value-type>`)
+  - Add a test(unit test)
 - [ ] Go predefined data structure
 
 ### Object-Oriented Programming
