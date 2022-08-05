@@ -10,6 +10,7 @@
 - `go mod init`: initializes and writes a new `go.mod` file in the current directory
 - `go mod edit`: edits and formats `go.mod` files, for use primarily by tools and scripts
 - `go mod tidy`: ensures that the `go.mod` file matches the source code in the module
+- `go test -v`: executes test functions (whose names begin with `Test`) in test files (whose names end with `_test.go`)
 
 ## Learning Progress
 

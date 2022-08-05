@@ -20,6 +20,7 @@ func Hello(name string) (string, error) {
 		return "", nameError
 	}
 	message := fmt.Sprintf(randomFormat(), name)
+	// message := fmt.Sprintf(randomFormat())
 	return message, nameError
 }
 
