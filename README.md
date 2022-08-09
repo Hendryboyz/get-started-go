@@ -14,6 +14,7 @@
 - `go build`: compiles the packages, along with the dependencies but it **doesn't install the build result**.
 - `go install`: compiles and installs the packages
   - `go env -w GOBIN=/path/to/your/bin`: changes the install target by setting the `GOBIN` variable using `go env`
+- `go work init <dir>`: creates a `go.work` file for the workspace containing the modules in `<dir>` directory
 
 ## Learning Progress
 
@@ -28,6 +29,7 @@
   - Return greetings for multiple people(`map[<key-type>]<value-type>`)
   - Add a test(unit test)
   - Compile and install the application
+- [x] Getting started with multi-module [workspaces](https://go.dev/ref/mod#workspaces): https://go.dev/doc/tutorial/workspaces
 - [ ] Go predefined data structure
 
 ### Object-Oriented Programming
