@@ -31,6 +31,7 @@
   - Compile and install the application
 - [x] Getting started with multi-module [workspaces](https://go.dev/ref/mod#workspaces): https://go.dev/doc/tutorial/workspaces
 - [ ] Go predefined data structure
+- [ ] Go Web Framework - [Gin](https://gin-gonic.com/docs/): https://go.dev/doc/tutorial/web-service-gin
 
 ### Object-Oriented Programming
 
