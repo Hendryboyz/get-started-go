@@ -23,8 +23,8 @@ func main() {
 		fmt.Println(messages)
 	}
 
-	message2, err3 := greetings.AnotherHello("")
-	tryPrint(message2, err3)
+	// message2, err3 := greetings.AnotherHello("")
+	// tryPrint(message2, err3)
 }
 
 func tryPrint(message string, err error) {
