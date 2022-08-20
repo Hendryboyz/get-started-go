@@ -31,8 +31,9 @@
   - Compile and install the application
 - [x] Getting started with multi-module [workspaces](https://go.dev/ref/mod#workspaces): https://go.dev/doc/tutorial/workspaces
 - [ ] A Tour of Go: https://go.dev/tour/basics/
-  - Basic Type: https://go.dev/tour/basics/11
-  - Flow Control: https://go.dev/tour/flowcontrol/12
+  - Basic Type: https://go.dev/tour/basics/1
+  - Flow Control: https://go.dev/tour/flowcontrol/1
+  - Advanced Type: https://go.dev/tour/moretypes/1
 - [ ] Go predefined data structure
 - [ ] Go Web Framework - [Gin](https://gin-gonic.com/docs/): https://go.dev/doc/tutorial/web-service-gin
 
