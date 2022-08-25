@@ -37,6 +37,10 @@
 - [ ] Go predefined data structure
 - [ ] Go Web Framework - [Gin](https://gin-gonic.com/docs/): https://go.dev/doc/tutorial/web-service-gin
 
+#### Nice to Read
+
+- the design of slice: https://go.dev/blog/slices-intro
+
 ### Object-Oriented Programming
 
 ### functional Programming

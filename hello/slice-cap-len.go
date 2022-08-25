@@ -17,7 +17,7 @@ func main() {
 	printSlice(s)
 
 	// increase low bound will drop the element
-	s = [2:3]
+	s = s[2:3]
 	printSlice(s)
 }
 
