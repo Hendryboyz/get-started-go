@@ -31,15 +31,15 @@
   - Compile and install the application
 - [x] Getting started with multi-module [workspaces](https://go.dev/ref/mod#workspaces): https://go.dev/doc/tutorial/workspaces
 - [x] A Tour of Go - Basic: https://go.dev/tour/list
-  - Basic Type: https://go.dev/tour/basics/1
-  - Flow Control: https://go.dev/tour/flowcontrol/1
-  - Advanced Type: https://go.dev/tour/moretypes/1
+  - ~~Basic Type: https://go.dev/tour/basics/1~~
+  - ~~Flow Control: https://go.dev/tour/flowcontrol/1~~
+  - ~~Advanced Type: https://go.dev/tour/moretypes/1~~
 - [ ] A Tour of Go - Advanced
-  - Method and interfaces: https://go.dev/tour/methods/1
+  - ~~Method and interfaces: https://go.dev/tour/methods/1~~
   - Generics: https://go.dev/tour/generics/1
-  - Concurrency: https://go.dev/tour/concurrency/1
+  - ~~Concurrency: https://go.dev/tour/concurrency/1~~
 - [ ] Go predefined data structure
-- [ ] Go Web Framework - [Gin](https://gin-gonic.com/docs/): https://go.dev/doc/tutorial/web-service-gin
+- [x] Go Web Framework - [Gin](https://gin-gonic.com/docs/): https://go.dev/doc/tutorial/web-service-gin
 
 #### Nice to Read
 
